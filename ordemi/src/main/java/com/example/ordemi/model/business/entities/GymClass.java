@@ -3,7 +3,6 @@ package com.example.ordemi.model.business.entities;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 
 @Entity
 public class GymClass {

@@ -2,6 +2,7 @@ package com.example.ordemi.model.business.entities;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 public class User {
@@ -12,10 +13,8 @@ public class User {
     private String name;
     private String role;
 
-    @ManyToMany
-    @JoinTable(name =  "participation", joinColumns = @JoinColumn(name = "event_id", referencedColumnName = "id"),
-    inverseJoinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"))
-    private List<Event> events;
+    @OneToMany(mappedBy = "user")
+    private Set<Participation> participations;
 
     public User(Long id, String name){
             this.name = name;
@@ -45,11 +44,11 @@ public class User {
         this.role = role;
     }
 
-    public List<Event> getEvents() {
-        return events;
+    public Set<Participation> getParticipations() {
+        return participations;
     }
 
-    public void setEvents(List<Event> events) {
-        this.events = events;
+    public void setParticipations(Set<Participation> participations) {
+        this.participations = participations;
     }
 }
