@@ -1,6 +1,5 @@
-package com.example.ordemi.model.business.registers;
+package com.example.ordemi.model.business.user;
 
-import com.example.ordemi.model.business.entities.User;
 import com.example.ordemi.model.data.user.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

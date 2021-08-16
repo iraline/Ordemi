@@ -1,6 +1,6 @@
 package com.example.ordemi.model.data.gymClass;
 
-import com.example.ordemi.model.business.entities.GymClass;
+import com.example.ordemi.model.business.gymClass.GymClass;
 
 import java.util.Optional;
 

@@ -1,7 +1,8 @@
-package com.example.ordemi.model.business.entities;
+package com.example.ordemi.model.business.user;
 
 import javax.persistence.*;
-import java.util.List;
+
+import com.example.ordemi.model.business.participation.Participation;
 import java.util.Set;
 
 @Entity

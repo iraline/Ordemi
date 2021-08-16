@@ -1,7 +1,7 @@
-package com.example.ordemi.model.business.controllers;
+package com.example.ordemi.model.business.participation;
 
-import com.example.ordemi.model.business.entities.Participation;
-import com.example.ordemi.model.business.registers.ParticipationRegister;
+import com.example.ordemi.model.business.participation.Participation;
+import com.example.ordemi.model.business.participation.ParticipationRegister;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

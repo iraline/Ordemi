@@ -1,6 +1,6 @@
 package com.example.ordemi.model.data.participation;
 
-import com.example.ordemi.model.business.entities.Participation;
+import com.example.ordemi.model.business.participation.Participation;
 
 import java.util.Optional;
 

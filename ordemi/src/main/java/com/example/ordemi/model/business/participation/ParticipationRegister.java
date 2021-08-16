@@ -1,6 +1,5 @@
-package com.example.ordemi.model.business.registers;
+package com.example.ordemi.model.business.participation;
 
-import com.example.ordemi.model.business.entities.Participation;
 import com.example.ordemi.model.data.participation.IParticipationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
