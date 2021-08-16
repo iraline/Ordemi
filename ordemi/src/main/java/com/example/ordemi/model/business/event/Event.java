@@ -1,6 +1,10 @@
-package com.example.ordemi.model.business.entities;
+package com.example.ordemi.model.business.event;
 
 import javax.persistence.*;
+
+import com.example.ordemi.model.business.participation.Participation;
+import com.example.ordemi.model.business.gymClass.GymClass;
+
 import java.util.Date;
 import java.util.Set;
 

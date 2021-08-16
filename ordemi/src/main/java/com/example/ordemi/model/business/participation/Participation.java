@@ -1,7 +1,10 @@
-package com.example.ordemi.model.business.entities;
+package com.example.ordemi.model.business.participation;
 
 
 import javax.persistence.*;
+
+import com.example.ordemi.model.business.event.Event;
+import com.example.ordemi.model.business.user.User;
 
 @Entity
 public class Participation {

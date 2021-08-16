@@ -1,7 +1,5 @@
-package com.example.ordemi.model.business.controllers;
+package com.example.ordemi.model.business.gymClass;
 
-import com.example.ordemi.model.business.entities.GymClass;
-import com.example.ordemi.model.business.registers.GymClassRegister;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,6 +1,5 @@
-package com.example.ordemi.model.business.registers;
+package com.example.ordemi.model.business.event;
 
-import com.example.ordemi.model.business.entities.Event;
 import com.example.ordemi.model.data.event.IEventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

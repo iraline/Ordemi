@@ -1,4 +1,4 @@
-package com.example.ordemi.model.business.entities;
+package com.example.ordemi.model.business.gymClass;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
