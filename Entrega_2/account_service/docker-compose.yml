@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  account:
+    build: .
+    restart: always
+    # command: ruby ruby.rb
+    volumes:
+      - .:/rails_app
+    environment:
+      - RAILS_ENV=development
+      - RACK_ENV=development
+    depends_on: 
+      - account-db
+    ports:
+      - 3001:3000
+  
+  account-db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret123
+    volumes:
+      - account_db_volume:/var/lib/mysql
+    ports:
+      - 3378:3306
+
+volumes:
+  account_db_volume:
