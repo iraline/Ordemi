@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  gym-class:
+    build: .
+    restart: always
+    # command: ruby ruby.rb
+    volumes:
+      - .:/rails_app
+    environment:
+      - RAILS_ENV=development
+      - RACK_ENV=development
+    depends_on: 
+      - gym-class-db
+    ports:
+      - 3000:3000
+  
+  gym-class-db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret123
+    volumes:
+      - gc_db_volume:/var/lib/mysql
+    ports:
+      - 3377:3306
+
+volumes:
+  gc_db_volume:
