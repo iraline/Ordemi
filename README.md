@@ -11,6 +11,7 @@ Visando uma melhor organização de aulas dentro de uma academia de ginástica p
 <h2> Entregas </h2>
 <a href="https://docs.google.com/document/d/1FaArzYE8MahJAW-54yE2AsORq9h3vKWtlXC9JpdCx7E/edit?usp=sharing"> Entrega 1 </a><br>
 <a href="https://docs.google.com/presentation/d/1HyTphubbup62xZSSSm_LH1cYfuktg606ePbR5Zw56iQ/edit?usp=sharing"> Slide Entrega 1 </a>
+<a href="https://docs.google.com/presentation/d/1jppsL-hQQIMndQ9e3j79em4u2PYW_heEh646z4cqf7w/edit?usp=sharing"> Slide Entrega 2 </a>
 
 <h2> Rodando o projeto </h2>
 Entrar na pasta e digitar o comando `./mvnw spring-boot:run`
